@@ -12,15 +12,18 @@
 	float: left;
 	list-style:none;
 	color:#3f4a4f;
-	margin-right:10px;
-	position:relative
+	margin-right:1px;
+	position:relative;
+        border: 0;
+        height: 1.7em;
+        background: #336600;
 	}
 	
 #nav a, #nav a:visited {
 	display: block;
 	text-decoration: none;
 	border:none;
-	color:#797976;
+	color:#ddf;
 	padding:7px 22px;
 	font:bold 0.75em Arial,Verdana;
 	letter-spacing:0.07em;	
@@ -28,7 +31,7 @@
 
 #nav a:hover {
 	text-decoration:none;
-	color:#292928;
+	color:#fff;
 	}	
 
 #nav a:active {
@@ -39,6 +42,7 @@
 #nav li.current_page_item a, #nav li.current_page_item a:visited {
 	background:#FFF;
 	color:#292928;
+        height: 1.9em;
 	}
 
 	
