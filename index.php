@@ -80,27 +80,6 @@
 	
     
     
-	<div id="featured-cats"> 
-	<h3><?php _e('Featured Categories','Mimbo'); ?></h3>
-
-		<?php
-        $display_categories = get_option('openbook_cats');
-        foreach ($display_categories as $category) { 
-        $showposts = get_option('openbook_featured_posts');	
-        query_posts("showposts=$showposts&cat=$category");
-        ?>
-
-<h5><a href="<?php echo get_category_link($category);?>"><?php single_cat_title(); ?>&raquo;</a></h5>
-
-        <ul>
-        <?php while (have_posts()) : the_post(); ?>
-        <li class="clearfloat"><p class="date"><?php the_time('n/d/y'); ?> &bull; </p><a href="<?php the_permalink() ?>" rel="bookmark" title="<?php the_title_attribute(); ?>"><?php the_title(); ?></a></li>
-        <?php endwhile; ?>
-        </ul>
-	<?php } ?>
-    
-</div><!--END FEATURED CATS-->
-
 	
 </div><!--END CONTENT-->
 

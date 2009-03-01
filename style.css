@@ -50,7 +50,8 @@ body,html {
 	}
 	
 body {
-	background:#e4e2db;
+	background:#135720;
+	/*background:#e4e2db;*/
 	color: #1d1d1d;
 	}
 
@@ -136,23 +137,24 @@ pre {
 	}
 
 #masthead {
-	padding:12px 0;
+	padding:12px 4px;
+        height: 125px;
+	background:url(images/cos_banner.png) no-repeat right;
 	/* border-bottom:1px solid #607b88; */
 	}
+
+#masthead > h1 { margin-top: 50px; }
+
+#headermessages { float: left; width: 600px; }
+#headermessages > div { clear:left; width: 600px; border: 0; padding: 0; margin: 0; border: 0;}
+#headermessages h1 { margin-top: 50px; font: bold 2.5em Georgia, "Times New Roman", Times, serif; border: 0;}
+#headermessages h3 { font: italic 1.2em Georgia, "Times New Roman", Times, serif;
+                     color:#383737; border: 0; margin: 0;
+                     letter-spacing:0.01em;}
 
 #content {
 	width:620px;
 	float:left
-	}
-	
-#description {
-	font: italic 1.2em Georgia, "Times New Roman", Times, serif;
-	color:#888787;
-	padding: 0 0 0 20px;
-	border-left:1px dotted #7c7c7c;
-	margin:13px 0 0 20px;
-	float:left;
-	letter-spacing:0.01em;
 	}
 	
 .left {
@@ -167,14 +169,14 @@ pre {
 	width: 265px;
 	float:right
 	}
-
+/*
 #featured-cats {
 	width:182px;
 	float:left
 	}
-
+*/
 #more-posts {
-	width:413px;
+	width:605px;
 	float:right;
 	}
 	

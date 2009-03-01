@@ -45,11 +45,15 @@
 
 <div id="wrapper" class="clearfloat">
 
-
 <div class="clearfloat" id="masthead">
+<div id="headermessages">
+<div>
 <h1><a href="<?php echo get_option('home'); ?>/" title="<?php _e('Return Home','Mimbo'); ?>"><?php bloginfo('name'); ?></a></h1>
-
-<div id="description"><?php bloginfo('description'); ?></div>
+</div>
+<div>
+<h3 id="description"><?php bloginfo('description'); ?></h3>
+</div>
+</div>
 
 <form method="get" id="searchform" action="<?php bloginfo('url'); ?>/">
 <input type="text" value="<?php the_search_query(); ?>" name="s" id="s" /><input type="image" src="<?php bloginfo('template_url'); ?>/images/magnify.gif" id="searchsubmit" />
