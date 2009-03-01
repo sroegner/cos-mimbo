@@ -39,7 +39,7 @@
 	color:#6b6b68;
 	}
 	
-#nav li.current_page_item a, #nav li.current_page_item a:visited {
+#nav li.current_page_item a, #nav li.current_page_item a:visited, #nav li.current_page_ancestor a, #nav li.current_page_ancestor a:visited {
 	background:#FFF;
 	color:#292928;
         height: 1.9em;
