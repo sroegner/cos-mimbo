@@ -27,7 +27,7 @@
 			
 		
 		<div id="more-posts">
-		<h3><?php _e('Recent Posts','Mimbo'); ?></h3>
+		<!-- <h3><?php _e('Recent Posts','Mimbo'); ?></h3> -->
 		
 		<?php
 	    while (have_posts()) {
