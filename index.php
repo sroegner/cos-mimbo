@@ -14,19 +14,19 @@
 	?>
 	        
     <div id="lead" class="clearfloat">
-			 
-			<a href="<?php the_permalink() ?>" rel="bookmark" title="<?php the_title(); ?>">
-<?php echo get_post_image (get_the_id(), '', '', '' .get_bloginfo('template_url') .'/scripts/timthumb.php?zc=1&amp;w=260&amp;h=230&amp;src='); ?></a>
-    
-	<div id="lead-text">
-    <h2><a href="<?php the_permalink() ?>" rel="bookmark" title="<?php the_title(); ?>">
-    <?php the_title(); ?></a> <span class="commentcount"> (<?php comments_popup_link('0', '1', '%'); ?>)</span></h2>
-    
-   
-    <p class="date"><?php the_time('n/d/y'); ?> &bull; </p>
-	<?php the_excerpt(); ?>
-	</div>
-			</div><!--END LEAD/STICKY POST-->
+      <div id="lead-text">
+	    <h2>Welcome!</h2>
+        
+        <p>This website is intended as a window into the community that is Church of Our Saviour.
+		   You will find information about our services and programs, about our activities for children,
+		   and our efforts to reach out to others.
+		   Beyond that you will read stories of our life together as a spiritual community that tells you a bit about who we are.</p>
+		<p>What makes us really want to be here, however, lies beyond these pages in the warmth and care of the people who make this their church.
+		   We hope you will join us on Sunday morning at 10 AM (childcare provided), and consider making Church of Our Saviour your spiritual home.</p>
+	  </div>
+    </div>
+			
+		<!--END LEAD/STICKY POST-->
 			
 		
 		<div id="more-posts">
@@ -42,7 +42,7 @@
 			<a href="<?php the_permalink() ?>" rel="bookmark" title="<?php the_title(); ?>">
 <?php echo get_post_image (get_the_id(), '', '', '' .get_bloginfo('template_url') .'/scripts/timthumb.php?zc=1&amp;w=105&amp;h=85&amp;src='); ?></a>
 
-<h4><a href="<?php the_permalink() ?>" rel="bookmark" title="<?php the_title_attribute(); ?>"><?php the_title(); ?></a> <span class="commentcount">(<?php comments_popup_link('0', '1', '%'); ?>)</span></h4>
+<h4><a href="<?php the_permalink() ?>" rel="bookmark" title="<?php the_title_attribute(); ?>"><?php the_title(); ?></a> </h4>
 
 <p class="date"><?php the_time('n/d/y'); ?> &bull; </p>
 			<?php the_excerpt(); ?>

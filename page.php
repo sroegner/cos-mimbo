@@ -21,7 +21,7 @@
 			</div>
 		</div>
         
-        <?php comments_template(); ?>
+		<?php comments_template(); ?>
         
 		<?php endwhile; endif; ?>
 	<?php edit_post_link(__('Edit this entry','Mimbo'), '<p>', ' &raquo;</p>'); ?>

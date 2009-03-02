@@ -65,7 +65,8 @@ p {
 	}
 
 a, a:visited {
-	color: #83a7ba;
+	/* color: #83a7ba;*/
+	color: #060;
 	}
 
 a:hover, a:active {
@@ -339,22 +340,23 @@ h5 a:hover, h5 a:active {
 	}
 		
 #lead {
+        width: 605px;
 	margin:22px 0;
+        float: right;
 	background:#ededed;
-	border-bottom:1px solid #dadada;
-	border-right:1px solid #dadada;
+	border:1px solid #dadada;
 	}
-
+/*
 #lead:hover {
 	background:#e8e8e8;
 	border-bottom:1px solid #cbcbca;
 	border-right:1px solid #cbcbca;
-	}
+	}*/
 
 #lead-text {
 	float:left;
-	width:320px;
-	padding:13px 15px 16px 0;
+	width: 590px;
+	padding: 10px 8px;
 	}
 
 #lead br, .recent-excerpts br /*cleans up excerpts*/ {
@@ -404,8 +406,11 @@ h5 a:hover, h5 a:active {
 #home #content a, #home #content a:visited, 
 .archive-list h4 a, .archive-list h4 a:visited,
 .commentcount a, .commentcount a:visited, 
+.entry a, .entry a:visited, 
+.postmetadata a, .postmetadata a:visited, 
 .fullarchive a, .fullarchive a:visited {
-	color:#424242;
+	/*color:#424242;*/
+        color: 060;
 	text-decoration: none;
 	}
 
@@ -413,9 +418,13 @@ h5 a:hover, h5 a:active {
 #home #content a:hover, #home #content a:active, 
 .archive-list h4 a:hover, h4 .archive-list a:active, 
 .commentcount a:hover, .commentcount a:active, 
+.entry a:hover, .entry a:active, 
+.postmetadata a:hover, .postmetadata a:active, 
 .fullarchive a:hover, .fullarchive a:active {
-	color:#686868;
-	text-decoration: underline;
+	/* color:#686868;
+	text-decoration: underline; */
+        color: 131;
+	text-decoration: none; 
 	}
 
 #wp-calendar td {
