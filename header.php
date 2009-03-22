@@ -6,6 +6,7 @@
 
 <title><?php dynamictitles(); ?></title>
 
+<meta name="verify-v1" content="/V+PzW3rLzxujKHj9GS0ZHuOcoJiw+JOniP4xhwTfnw=" />
 <?php if (is_single() || is_page() ) : if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
 <meta name="description" content="<?php the_excerpt_rss(); ?>" />
 <?php endwhile; endif; elseif(is_home()) : ?>
@@ -39,7 +40,7 @@
 <div id="page">
 
 <ul id="nav" class="clearfloat">
-<li <?php if ( is_home() ) { ?> class="current_page_item"<?php } ?>><a href="<?php echo get_option('home'); ?>/"><?php _e('Home','Mimbo'); ?></a></li> 
+  <li <?php if ( is_home() ) { ?> class="current_page_item"<?php } ?>><a href="<?php echo get_option('home'); ?>/"><?php _e('Home','Mimbo'); ?></a></li> 
 <?php wp_list_pages('title_li='); ?>
 </ul>
 
