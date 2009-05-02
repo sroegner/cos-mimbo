@@ -12,7 +12,7 @@
 		<div id="post-<?php the_ID(); ?>" <?php post_class('style'); ?>>
 			<h2 class="posttitle"><?php the_title(); ?></h2>
 	
-		 <p class="postmetadata"><?php _e('Posted by','Mimbo'); ?> <?php the_author_posts_link('namefl'); ?> <?php _e('on','Mimbo'); ?> <?php the_time('n/d/y'); ?> &bull; <?php _e('Categorized as','Mimbo'); ?> <?php the_category(',') ?></p>
+		 <p class="postmetadata"><?php _e('Posted on','Mimbo'); ?> <?php the_time('n/d/y'); ?> &bull; <?php _e('Categorized as','Mimbo'); ?> <?php the_category(',') ?></p>
 		 
 			<div class="entry clearfloat">
 				<?php the_content('<p>'.__('Read the rest of this entry','Mimbo').'&raquo;</p>'); ?>
