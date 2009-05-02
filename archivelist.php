@@ -3,5 +3,5 @@
 			
 	<h4><a href="<?php the_permalink() ?>" rel="bookmark" title="<?php the_title(); ?>"><?php the_title(); ?></a></h4> 
 			
-		<p class="postmetadata"><?php the_time('n/d/y'); ?> &bull; <span class="commentcount">(<?php comments_popup_link('0', '1', '%'); ?>)</span></p>  
+		<p class="postmetadata"><?php the_time('F j, Y'); ?></p>  
 			</li>

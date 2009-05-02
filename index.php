@@ -8,45 +8,39 @@
 	$postCount = 0;
 	$page = (get_query_var('paged')) ? get_query_var('paged') : 1;
 	query_posts( 'paged=$page&post_per_page=-1&cat=' . get_query_var('cat') );
-	while (have_posts()) { the_post(); 
-		if( $postcount == 0 ) { 
-		//GETS LATEST OR STICKY POST
 	?>
-	        
+
+
     <div id="lead" class="clearfloat">
-			 
-			<a href="<?php the_permalink() ?>" rel="bookmark" title="<?php the_title(); ?>">
-<?php echo get_post_image (get_the_id(), '', '', '' .get_bloginfo('template_url') .'/scripts/timthumb.php?zc=1&amp;w=260&amp;h=230&amp;src='); ?></a>
-    
-	<div id="lead-text">
-    <h2><a href="<?php the_permalink() ?>" rel="bookmark" title="<?php the_title(); ?>">
-    <?php the_title(); ?></a> <span class="commentcount"> (<?php comments_popup_link('0', '1', '%'); ?>)</span></h2>
-    
-   
-    <p class="date"><?php the_time('n/d/y'); ?> &bull; </p>
-	<?php the_excerpt(); ?>
-	</div>
-			</div><!--END LEAD/STICKY POST-->
+      <div id="lead-text">
+            <h2>Welcome!</h2>
+        
+        <p>This website is intended as a window into the community that is Church of Our Saviour.
+                   You will find information about our services and programs, about our activities for children,
+                   and our efforts to reach out to others.
+                   Beyond that you will read stories of our life together as a spiritual community that tells you a bit about who we are.</p>
+                <p>What makes us really want to be here, however, lies beyond these pages in the warmth and care of the people who make this their church.
+                   We hope you will join us on Sunday morning at 10 AM (childcare provided), and consider making Church of Our Saviour your spiritual home.</p>
+          </div>
+    </div>
+	
 			
 		
 		<div id="more-posts">
-		<h3><?php _e('Recent Posts','Mimbo'); ?></h3>
 		
 		<?php
-		}
-		elseif( $postcount > 0 && $postcount <= 4 ) { 
-		//GETS NEXT FOUR EXCERPTS
+                  while (have_posts()) {
+                    the_post();	
+		      if($postcount <= 3 ) { 
+		      //GETS NEXT FOUR EXCERPTS
 		?>
-			
-		<div class="clearfloat recent-excerpts">
-			<a href="<?php the_permalink() ?>" rel="bookmark" title="<?php the_title(); ?>">
-<?php echo get_post_image (get_the_id(), '', '', '' .get_bloginfo('template_url') .'/scripts/timthumb.php?zc=1&amp;w=105&amp;h=85&amp;src='); ?></a>
-
-<h4><a href="<?php the_permalink() ?>" rel="bookmark" title="<?php the_title_attribute(); ?>"><?php the_title(); ?></a> <span class="commentcount">(<?php comments_popup_link('0', '1', '%'); ?>)</span></h4>
-
-<p class="date"><?php the_time('n/d/y'); ?> &bull; </p>
-			<?php the_excerpt(); ?>
-		</div>
+		        <div class="clearfloat recent-excerpts">
+                          <h4>
+                            <a href="<?php the_permalink() ?>" rel="bookmark" title="<?php the_title_attribute(); ?>"><?php the_title(); ?></a>
+                          </h4>
+                          <p class="date"><?php the_time('F j, Y'); ?> &bull; </p>
+			  <?php the_content(); ?>
+		        </div>
 						
 <?php //GETS NEXT HEADLINES
 		}
@@ -71,15 +65,10 @@
 	
 <?php 
 	if(count($links)): ?>
-
-	 <h3><?php _e('Older Posts','Mimbo'); ?></h3>
-	 <ul class="headlines"><?php echo join("\n", $links); ?></ul>
-			
+  <h3><?php _e('Older Posts','Mimbo'); ?></h3>
+  <ul class="headlines"><?php echo join("\n        ", $links); ?></ul>
 	<?php endif; ?>
 	</div><!--END RECENT/OLDER POSTS-->
-	
-    
-    
 	
 </div><!--END CONTENT-->
 
