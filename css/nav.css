@@ -21,7 +21,7 @@
 	
 #nav a, #nav a:visited {
 	display: block;
-	text-decoration: none;
+	text-decoration: underline;
 	border:none;
 	color:#ddf;
 	padding:7px 22px;
@@ -30,7 +30,6 @@
 	}
 
 #nav a:hover {
-	text-decoration:none;
 	color:#fff;
 	}	
 
@@ -95,7 +94,7 @@ ul#nav li li li.sfhover ul {
 
 #nav li li {
 	width: 178px;
-	background: #777;
+	background: #555;
 	z-index:1000;
 	height:auto;
 	padding:4px 0;
@@ -106,9 +105,9 @@ ul#nav li li li.sfhover ul {
 #nav li li a, #nav li li a:visited, 
 #nav li.current_page_parent li.current_page_item a, #nav li.current_page_parent li.current_page_item a:visited {
 	color:#dadada !important;
-	background: #777 !important;
+	background: #555 !important;
 	text-transform:uppercase;
-	font:0.6em Georgia, "Times New Roman", Times, serif !important;
+	font:0.7em Georgia, "Times New Roman", Times, serif !important;
 	padding:5px 12px !important;
 	}
 
