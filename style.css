@@ -584,6 +584,7 @@ img.alignleft {
 img.alignright {
 	margin:5px 0 10px 15px;
 	float:right;
+        clear:both;
 	}
 
 .wp-caption.alignleft {
