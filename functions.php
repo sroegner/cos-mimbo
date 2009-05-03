@@ -365,7 +365,23 @@ function post_strip($where) {
 	return $where;
 }
 
+// this is to get a list of ids for wp_list_pages to exlude
+// is looking for the custom field "topmenu_hide" to be set to 1
 
+function excluded_pages(){
+	global $wpdb;
+        $sql = "select post_id from wp_postmeta where meta_key='topmenu_hide' and meta_value=1;";
+        $all_ids = $wpdb->get_col($sql);
+        $ids = implode(',', $all_ids);
+        if ($ids != "")
+        {
+          return "exclude=$ids";
+        }
+        else
+        {
+          return "";
+        }
+}
 
 /* For Getting the Image ********************************************/
 
