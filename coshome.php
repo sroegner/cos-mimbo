@@ -1,62 +1,18 @@
 <?php
-  /*
+ /*
   Template Name: COSHome
-  */
+ */
 ?>
 
-<?php get_header(); ?>
+<div id="lead" class="clearfloat">
+<div id="lead-text">
 
-<?php if (have_posts()) { ?>
+<img class="alignright size-full wp-image-1310" title="LDY-card" src="http://www.church-of-our-saviour.org/wp-content/uploads/2009/07/LDY-card.jpg" alt="LDY-card" width="160" height="240" />
 
+<h2>Welcome!</h2>
 
-<?php
-  $postCount = 0;
-  $page = (get_query_var('paged')) ? get_query_var('paged') : 1;
-  query_posts( 'paged=$page&post_per_page=-1&cat=' . get_query_var('cat') );
-?>
+<p>This website is intended as a window into the community that is Church of Our Saviour. You will find information about our services and programs, about our activities for children, and our efforts to reach out to others. Beyond that you will read stories of our life together as a spiritual community that tells you a bit about who we are.</p>
 
-<div id="more-posts">
-<?php while (have_posts()) {
-        the_post();	
-		if($postcount <= 3 ) {//GETS NEXT FOUR EXCERPTS ?>
-	
-  <div class="clearfloat recent-excerpts">
-    <h4><a href="<?php the_permalink() ?>" rel="bookmark" title="<?php the_title_attribute(); ?>">
-      <?php the_title(); ?></a></h4><p class="date"><?php the_time('F j, Y'); ?> &bull;</p>
-
-      <?php the_content('more ...'); ?>
-  </div>
-						
-<?php //GETS NEXT HEADLINES
-		}
-		else { 
-			ob_start();
-			echo '<li><a href="'; 
-			the_permalink();
-			echo '">';
-			the_title();
-			echo '</a></li>';
-			$links[] = ob_get_contents();
-			ob_end_clean();			
-		}
-		$postcount ++;
-		}
-	}
-	else {
-?>
-
-<?php } ?>
-	
-	
-<?php 
-	if(count($links)): ?>
-  <h3><?php _e('Older Posts','Mimbo'); ?></h3>
-  <ul class="headlines"><?php echo join("\n        ", $links); ?></ul>
-	<?php endif; ?>
-	</div><!--END RECENT/OLDER POSTS-->
-	
-</div><!--END CONTENT-->
-
-<?php get_sidebar(); ?>
-<?php get_footer(); ?>
+<p>What makes us really want to be here, however, lies beyond these pages in the warmth and care of the people who make this their church. We hope you will join us on Sunday morning at 9:00 AM, and consider making Church of Our Saviour your spiritual home.</p></div>
+</div>
 
