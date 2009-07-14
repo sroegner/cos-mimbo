@@ -18,16 +18,13 @@
 	?>
 
 
-           <div class="entry clearfloat">
-				<?php the_content(); ?>
-
-				<?php wp_link_pages(array(
-				'before' => '<p><strong> '.__('Pages:','Mimbo').' </strong>', 
-				'after' => '</p>', 
-				'next_or_number' => 'number')); 
-				?>
-
-			</div>
+        <div class="entry clearfloat">
+          <?php the_content(); ?>
+          <?php wp_link_pages(array('before' => '<p><strong> '.__('Pages:','Mimbo').' </strong>', 
+				    'after' => '</p>', 
+				    'next_or_number' => 'number')); 
+				                                    ?>
+        </div>
 
 			
 		
