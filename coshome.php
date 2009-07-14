@@ -13,30 +13,23 @@
     <?php the_content(); ?>
   </div>
 
- <?php
+<?php
+  $postCount = 0;
+  $page = (get_query_var('paged')) ? get_query_var('paged') : 1;
+  query_posts( 'paged=$page&post_per_page=-1&cat=' . get_query_var('cat') );
+?>
 
-	$postCount = 0;
-	$page = (get_query_var('paged')) ? get_query_var('paged') : 1;
-	query_posts( 'paged=$page&post_per_page=-1&cat=' . get_query_var('cat') );
-	?>
+<div id="more-posts">
+<?php while (have_posts()) {
+        the_post();	
+		if($postcount <= 3 ) {//GETS NEXT FOUR EXCERPTS ?>
+	
+  <div class="clearfloat recent-excerpts">
+    <h4><a href="<?php the_permalink() ?>" rel="bookmark" title="<?php the_title_attribute(); ?>">
+      <?php the_title(); ?></a></h4><p class="date"><?php the_time('F j, Y'); ?> &bull;</p>
 
-			
-		
-		<div id="more-posts">
-		
-		<?php
-                  while (have_posts()) {
-                    the_post();	
-		      if($postcount <= 3 ) { 
-		      //GETS NEXT FOUR EXCERPTS
-		?>
-		        <div class="clearfloat recent-excerpts">
-                          <h4>
-                            <a href="<?php the_permalink() ?>" rel="bookmark" title="<?php the_title_attribute(); ?>"><?php the_title(); ?></a>
-                          </h4>
-                          <p class="date"><?php the_time('F j, Y'); ?> &bull; </p>
-			  <?php the_content(); ?>
-		        </div>
+      <?php the_content('more ...',true,''); ?>
+  </div>
 						
 <?php //GETS NEXT HEADLINES
 		}
