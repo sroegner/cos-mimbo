@@ -11,26 +11,24 @@
 <div id="content">
 
  <?php
+
 	$postCount = 0;
 	$page = (get_query_var('paged')) ? get_query_var('paged') : 1;
 	query_posts( 'paged=$page&post_per_page=-1&cat=' . get_query_var('cat') );
 	?>
 
 
-    <div id="lead" class="clearfloat">
-      <div id="lead-text">
-            <h2>Welcome!</h2>
-        
-        <p>This website is intended as a window into the community that is Church of Our Saviour.
-                   You will find information about our services and programs, about our activities for children,
-                   and our efforts to reach out to others.
-                   Beyond that you will read stories of our life together as a spiritual community that tells you a bit about who we are.</p>
-                <p>What makes us really want to be here, however, lies beyond these pages in the warmth and care of the people who make this their church.
-                   We hope you will join us on Sunday morning at 9:00 AM, and consider making Church of Our Saviour your spiritual home.</p>
-                   <?php # We hope you will join us on Sunday morning at 10 AM (childcare provided), and consider making Church of Our Saviour your spiritual home.</p> ?>
-          </div>
-    </div>
-	
+           <div class="entry clearfloat">
+				<?php the_content(); ?>
+
+				<?php wp_link_pages(array(
+				'before' => '<p><strong> '.__('Pages:','Mimbo').' </strong>', 
+				'after' => '</p>', 
+				'next_or_number' => 'number')); 
+				?>
+
+			</div>
+
 			
 		
 		<div id="more-posts">
