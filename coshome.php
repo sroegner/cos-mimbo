@@ -10,13 +10,6 @@
 
 <div id="content">
 
- <?php
-
-	$postCount = 0;
-	$page = (get_query_var('paged')) ? get_query_var('paged') : 1;
-	query_posts( 'paged=$page&post_per_page=-1&cat=' . get_query_var('cat') );
-	?>
-
 
         <div class="entry clearfloat">
           <?php the_content(); ?>
@@ -25,6 +18,13 @@
 				    'next_or_number' => 'number')); 
 				                                    ?>
         </div>
+
+ <?php
+
+	$postCount = 0;
+	$page = (get_query_var('paged')) ? get_query_var('paged') : 1;
+	query_posts( 'paged=$page&post_per_page=-1&cat=' . get_query_var('cat') );
+	?>
 
 			
 		
