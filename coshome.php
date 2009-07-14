@@ -28,7 +28,7 @@
     <h4><a href="<?php the_permalink() ?>" rel="bookmark" title="<?php the_title_attribute(); ?>">
       <?php the_title(); ?></a></h4><p class="date"><?php the_time('F j, Y'); ?> &bull;</p>
 
-      <?php the_content('more ...',false,''); ?>
+      <?php the_content('more ...'); ?>
   </div>
 						
 <?php //GETS NEXT HEADLINES
