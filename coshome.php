@@ -8,10 +8,6 @@
 
 <?php if (have_posts()) { ?>
 
-<div id="content">
-  <div class="entry clearfloat">
-    <?php the_content(); ?>
-  </div>
 
 <?php
   $postCount = 0;
