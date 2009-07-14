@@ -40,7 +40,9 @@
 <div id="page">
 
 <ul id="nav" class="clearfloat">
+<!-- the static home link is gone in favor of a home page with a special template
   <li <?php if ( is_home() ) { ?> class="current_page_item"<?php } ?>><a href="<?php echo get_option('home'); ?>/"><?php _e('Home','Mimbo'); ?></a></li> 
+-->
 <?php 
     $excluded = excluded_pages();
     ($excluded != "") ? wp_list_pages("$excluded&title_li=") : wp_list_pages("title_li=");  
