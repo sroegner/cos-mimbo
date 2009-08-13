@@ -7,7 +7,7 @@
 <div id="lead" class="clearfloat">
 <div id="lead-text">
 
-<img class="alignright size-full wp-image-1310" title="LDY-card" src="http://www.church-of-our-saviour.org/wp-content/uploads/2009/07/LDY-card.jpg" alt="LDY-card" width="160" height="240" />
+<img class="alignright size-full wp-image-1310" style="margin-bottom:40px;" title="LDY-card" src="http://www.church-of-our-saviour.org/wp-content/uploads/2009/07/LDY-card.jpg" alt="LDY-card" width="160" height="240" />
 
 <h2>Welcome!</h2>
 
