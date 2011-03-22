@@ -15,7 +15,7 @@
 
 <p>What makes us really want to be here, however, lies beyond these pages in the warmth and care of the people who make this their church. We hope you will join us on Sunday morning, and consider making Church of Our Saviour your spiritual home.</p>
 
-<!-- <p>Holy Eucharist is at 9 a.m. during the summer and at 10 a.m. beginning September 13.</p></div> -->
-<p>Holy Eucharist is at 10 a.m.</p></div>
+<!-- <p>Holy Eucharist is at 9 a.m. during the summer and at 10 a.m. beginning September 12.</p></div> -->
+<p>Holy Eucharist is at 10:00 a.m.</p></div>
 </div>
 

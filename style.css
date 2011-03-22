@@ -50,9 +50,9 @@ body,html {
 	}
 	
 body {
-	/*background:url(images/cos_green_bg.gif)repeat-y center #cedbc2;*/
-	background:#aec299;
-	color: #1d1d1d;
+	/*background:url(images/cos_green_bg.gif)repeat-y center #CEDBC2;*/
+	background:#7EB3E8;
+	color: #1D1D1D;
 	}
 
 body, select, input, textarea {
@@ -65,28 +65,28 @@ p {
 	}
 
 a, a:visited {
-	/* color: #83a7ba;*/
-	color: #060;
+	/* color: #83A7BA;*/
+	color: #000066;
 	}
 
 a:hover, a:active {
-	color:#4d778d;
+	color:#6868FF;
 	}
 
 hr {
 	display: block;
 	height:1px;
-	background:#d7d7d7;
+	background:#D7D7D7;
 	border:0;
-	color:#d7d7d7;
+	color:#D7D7D7;
 	}
 
 table {
 	border-collapse:collapse;
 	width:100%;
 	margin:15px 0;
-	border-top:1px solid #e0ded9;
-	border-bottom:1px solid #e0ded9;
+	border-top:1px solid #E0DED9;
+	border-bottom:1px solid #E0DED9;
 	}
 
 td {
@@ -96,7 +96,7 @@ td {
 	}
 		
 table caption {
-	background:#f5f3ee;
+	background:#F5F3EE;
 	padding:2px 0;
 	}	
 			
@@ -109,7 +109,7 @@ blockquote {
 	padding:0 18px;
 	margin:25px 45px;
 	border-left:3px solid #DDD;
-	font: 1em Georgia, "Times New Roman", Times, serif;
+	font: 1em Georgia, "Times New Roman", Times, Serif;
 	letter-spacing:0.02em;
 	}
 
@@ -133,23 +133,23 @@ pre {
 	background:#FFF;
 	font-size:0.75em;
 	padding:0 25px 60px 25px;
-	border-bottom:1px solid #cac8c2;
-	border-right:1px solid #cac8c2;
+	border-bottom:1px solid #CAC8C2;
+	border-right:1px solid #CAC8C2;
 	}
 
 #masthead {
 	padding:12px 4px;
         height: 125px;
 	background:url(images/cos_banner.png) no-repeat right;
-	/* border-bottom:1px solid #607b88; */
+	/* border-bottom:1px solid #607B88; */
 	}
 
 #masthead > h1 { margin-top: 50px; }
 
 #headermessages { float: left; width: 600px; }
 #headermessages > div { clear:left; width: 600px; border: 0; padding: 0; margin: 0; border: 0;}
-#headermessages h1 { margin-top: 50px; font: bold 2.5em Georgia, "Times New Roman", Times, serif; border: 0;}
-#headermessages h3 { font: italic 1.2em Georgia, "Times New Roman", Times, serif;
+#headermessages h1 { margin-top: 50px; font: bold 2.5em Georgia, "Times New Roman", Times, Serif; border: 0;}
+#headermessages h3 { font: italic 1.2em Georgia, "Times New Roman", Times, Serif;
                      color:#383737; border: 0; margin: 0;
                      letter-spacing:0.01em;}
 
@@ -186,19 +186,19 @@ pre {
 /* ---------- @ Headers -----------*/
 
 h1 {
-	font: bold 2.7em Georgia, "Times New Roman", Times, serif;
+	font: bold 2.7em Georgia, "Times New Roman", Times, Serif;
 	letter-spacing:-0.01em;
 	float:left;
 	}
 	
 h2 {
-	font: 2.5em Georgia, "Times New Roman", Times, serif;
+	font: 2.5em Georgia, "Times New Roman", Times, Serif;
 	padding-bottom:8px;
 	margin: 25px 0 20px 0;
 	}
 
 #lead h2 {
-	font: 2.2em Georgia, "Times New Roman", Times, serif;
+	font: 2.2em Georgia, "Times New Roman", Times, Serif;
 	line-height:115%;
 	margin:3px 0 -8px 0;
 	padding:0;
@@ -216,26 +216,26 @@ h2.posttitle {
 	}
 
 h2.pagetitle {
-	border-bottom:1px solid #d7d7d7;
+	border-bottom:1px solid #D7D7D7;
 	padding:0 0 12px 0;
 	margin:25px 0 20px 0;
 	font-size:2.2em;
 	}
 				
 h3 {
-	border-top:3px solid #d7d7d7;
-	border-bottom:1px solid #d7d7d7;
+	border-top:3px solid #D7D7D7;
+	border-bottom:1px solid #D7D7D7;
 	padding:5px 0 5px 3px;
 	margin:22px 0 15px 0;
 	font-size:1em;
 	background:none;
-	color:#4c4b46;
+	color:#4C4B46;
 	letter-spacing:0.07em;
 	}
 
 .post h3 {
 	border:none;
-	font:1.7em Georgia, "Times New Roman", Times, serif;
+	font:1.7em Georgia, "Times New Roman", Times, Serif;
 	color: #232323;
 	letter-spacing:0;
 	}
@@ -253,7 +253,7 @@ h3#comments {
 	}
 
 h4 {
-	font:bold 1.3em Georgia, "Times New Roman", Times, serif;
+	font:bold 1.3em Georgia, "Times New Roman", Times, Serif;
 	margin-bottom:-10px;
 	}
 	
@@ -268,17 +268,17 @@ h4 {
 	}
 	
 h5 {
-	font: 0.8em Georgia, "Times New Roman", Times, serif;
+	font: 0.8em Georgia, "Times New Roman", Times, Serif;
 	text-transform:uppercase;
 	letter-spacing:0.15em;
 	padding:4px 8px;
 	margin-bottom:5px;
-	background:#f5f3ee;
-	border-top:1px solid #d7d7d7;
+	background:#F5F3EE;
+	border-top:1px solid #D7D7D7;
 	}
 
 h6 {
-	font:bold 0.9em Arial, Helvetica, sans-serif;
+	font:bold 0.9em Georgia, "Times New Roman", Times, Serif;
 	}
 
 
@@ -289,7 +289,7 @@ h6 {
 /*Misc*/
 
 h1 a, h1 a:visited {
-	color:#444;
+	color:#444444;
 	text-decoration:none
 	}
 
@@ -315,7 +315,7 @@ h5 a:hover, h5 a:active {
 	float:left;
 	margin: 4px 18px 8px 0;
 	padding:2px;
-	border:1px solid #b9b9b9;
+	border:1px solid #B9B9B9;
 	background:#FFF;
 	}
 	
@@ -343,14 +343,14 @@ h5 a:hover, h5 a:active {
         width: 605px;
 	margin:22px 0;
         float: right;
-	background:#ededed;
-	border:1px solid #dadada;
+	background:#EDEDED;
+	border:1px solid #DADADA;
 	}
 /*
 #lead:hover {
-	background:#e8e8e8;
-	border-bottom:1px solid #cbcbca;
-	border-right:1px solid #cbcbca;
+	background:#E8E8E8;
+	border-bottom:1px solid #CBCBCA;
+	border-right:1px solid #CBCBCA;
 	}*/
 
 #lead-text {
@@ -371,7 +371,7 @@ h5 a:hover, h5 a:active {
 .commentcount {
 	padding-right: 19px;
 	background:url(images/bubble.gif) no-repeat right;
-	font:.8em Arial, Helvetica, sans-serif;
+	font:.8em Arial, Verdana, Sans-Serif;
 	}
 
 #lead h2 .commentcount {
@@ -385,7 +385,7 @@ h5 a:hover, h5 a:active {
 .date {
 	float:left;
 	margin:18px 4px 0 0;
-	font: 0.85em Georgia, "Times New Roman", Times, serif;
+	font: 0.85em Arial, Verdana, Sans-Serif;
 	color:#737373;
 	letter-spacing:0.03em;
 	}
@@ -410,7 +410,7 @@ h5 a:hover, h5 a:active {
 .postmetadata a, .postmetadata a:visited, 
 .fullarchive a, .fullarchive a:visited {
 	/*color:#424242;*/
-        color: 060;
+        color: #000066;
 	text-decoration: none;
 	}
 
@@ -423,7 +423,7 @@ h5 a:hover, h5 a:active {
 .fullarchive a:hover, .fullarchive a:active {
 	/* color:#686868;
 	text-decoration: underline; */
-        color: 131;
+        color: #6868FF;
 	text-decoration: none; 
 	}
 
@@ -464,16 +464,16 @@ a.rsswidget, a.rsswidget:visited {
 /*Single Posts*/
 
 #writer {
-	background:#ededed;
+	background:#EDEDED;
 	margin:-10px 0 22px 0;
 	padding:3px 20px 16px 20px;
-	border-bottom:1px solid #dadada;
-	border-top:1px solid #dadada;
+	border-bottom:1px solid #DADADA;
+	border-top:1px solid #DADADA;
 	}
 	
 #writer img {
 	padding:1px;
-	border:1px solid #b2afa4;
+	border:1px solid #B2AFA4;
 	float:left;
 	margin:18px 15px 6px 0;
 	}
@@ -497,7 +497,7 @@ a.rsswidget, a.rsswidget:visited {
 	float:left;
 	height:103px;
 	margin: 8px 25px 18px 0;
-	border-bottom:1px dotted #b1b1b1;
+	border-bottom:1px dotted #B1B1B1;
 	}
 
 .archive-list img {
@@ -535,13 +535,13 @@ a.rsswidget, a.rsswidget:visited {
 
 .postmetadata {
 	padding: 7px 0;
-	border-top:1px solid #d7d7d7;
+	border-top:1px solid #D7D7D7;
 	margin:0 0 20px 0;
-	color:#7a7a7a;
+	color:#7A7A7A;
 	}	
 
 .post code {
-	background:#f5f3ee;
+	background:#F5F3EE;
 	padding:3px;
 	font-size:1.2em;
 	}
@@ -569,7 +569,7 @@ a.rsswidget, a.rsswidget:visited {
 .wp-caption.alignleft, 
 .wp-caption.alignright, 
 .wp-caption.aligncenter {
-	background:#f5f3ee;
+	background:#F5F3EE;
 	text-align:center;
 	padding:10px 5px 10px 10px;
 	border:3px double #FFF;
@@ -647,22 +647,22 @@ p.wp-caption-text {
 	margin-bottom:15px;
 	padding:5px !important;
 	text-align:center;
-	border-bottom:1px solid #f2f2f2;
-	border-right:1px solid #f2f2f2;
+	border-bottom:1px solid #F2F2F2;
+	border-right:1px solid #F2F2F2;
 	text-decoration:none !important;
-	font:italic 1em Georgia,Arial,Verdana;
+	font:italic 1em Arial, Verdana, Sans-Serif;
 	}
 
 .reply a:hover {
-	background:#aeaeae;
+	background:#AEAEAE;
 	text-decoration:none;
 	border-bottom:1px solid #898989;
 	border-right:1px solid #898989;	
-	color:#FFF;
+	color:#FFFFFF;
 	}
 
 .reply a:active {
-	background:#CCC;
+	background:#CCCCCC;
 	}
 			
 .commentlist li {
@@ -676,24 +676,24 @@ p.wp-caption-text {
 
 .commentlist li.depth-2 {
 	border:none;
-	background:#FFF;
-	border-top: 1px solid #f2f2f2;	
+	background:#FFFFFF;
+	border-top: 1px solid #F2F2F2;	
 	margin-left:15px;
 	}
 
 .commentlist li.depth-3	 {
 	margin-left:15px;
 	border:none;
-	background:#f2f2f2;
+	background:#F2F2F2;
 	}
 
 .commentlist li.bypostauthor {
-	background:#e5e5e5 !important; 
-	border:1px solid #c7c7c7 !important;
+	background:#E5E5E5 !important; 
+	border:1px solid #C7C7C7 !important;
 	}
 	
 .commentlist code {
-	background:#e0e0e0;
+	background:#E0E0E0;
 	padding:3px;
 	}
 	
@@ -701,8 +701,8 @@ p.wp-caption-text {
 	margin: 3px 10px 0 0;
 	float:left;
 	padding:2px;
-	border:1px solid #b9b9b9;
-	background:#FFF;	
+	border:1px solid #B9B9B9;
+	background:#FFFFFF;	
 	}
 
 #trackbacklist li {
@@ -714,7 +714,7 @@ p.wp-caption-text {
 	}
 			
 cite.fn {
-	font: bold 1.4em Georgia, "Times New Roman", Times, serif;
+	font: bold 1.4em Arial, Verdana, Sans-Serif;
 	letter-spacing:-0.05em;
 	display:block;
 	padding-top:9px;
@@ -736,7 +736,7 @@ cite.fn {
 
 .commentmetadata a:hover, .commentmetadata a:active  {
 	text-decoration:underline;
-	color:#333;
+	color:#000066;
 	}
 
 		
@@ -745,11 +745,11 @@ cite.fn {
 /* ---------- @ Form Elements -----------*/
 
 #author, #email, #comment, #url, #s {
-	background:#FFF !important;
+	background:#FFFFFF !important;
 	padding:5px;
-	border:1px solid #bfbfbf;
-	border-left:1px solid #e2e2e2;
-	border-top:1px solid #e2e2e2;
+	border:1px solid #BFBFBF;
+	border-left:1px solid #E2E2E2;
+	border-top:1px solid #E2E2E2;
 	}
 
 #author, #email, #url {
@@ -771,7 +771,7 @@ cite.fn {
 	}
 
 .button:active {
-	background:#000;
+	background:#000000;
 	}
 
 #commentform textarea {
@@ -793,7 +793,7 @@ cite.fn {
 	}
 	
 #s:focus {
-	background:#f8f8f8 !important;
+	background:#F8F8F8 !important;
 	}
 
 #searchsubmit {
@@ -831,12 +831,12 @@ cite.fn {
 	}
 
 #footer a, #footer a:visited {
-	color:#060;
+	color:#000066;
 	text-decoration:none;
 	}
 
 #footer a:hover {
-	color:#660;
+	color:#6868FF;
 	}
 
 #footer a:active {
