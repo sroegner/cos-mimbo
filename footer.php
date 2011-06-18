@@ -9,12 +9,17 @@
 <?php wp_footer(); ?>
 </div>
 
-<div id="rss">
-<img src="<?php bloginfo('template_url'); ?>/images/rss.gif" alt="rss" /><a href="<?php bloginfo('rss2_url'); ?>"><?php _e('Blog Entries','Mimbo'); ?></a> 
-&bull;  <a href="<?php bloginfo('comments_rss2_url'); ?>"><?php _e('Comments','Mimbo'); ?></a>
-</div> 
-
 </div><!--END FOOTER-->
 </div><!--END PAGE-->
+<!-- RefTagger from Logos. Visit http://www.logos.com/reftagger. This code should appear directly before the </body> tag. -->
+<script src="http://bible.logos.com/jsapi/referencetagging.js" type="text/javascript"> </script> 
+<script type="text/javascript">
+     Logos.ReferenceTagging.lbsBibleVersion = "ESV";
+     Logos.ReferenceTagging.lbsLinksOpenNewWindow = true;
+     Logos.ReferenceTagging.lbsLogosLinkIcon = "dark";
+     Logos.ReferenceTagging.lbsNoSearchTagNames = [ "h2", "h3", "h3" ];
+     Logos.ReferenceTagging.lbsTargetSite = "biblia";
+     Logos.ReferenceTagging.tag();
+</script>
 </body>
 </html>
