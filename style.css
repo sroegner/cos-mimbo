@@ -56,7 +56,7 @@ text-decoration: underline;
 border:none;
 color:#ddf;
 padding:7px 22px;
-font:bold 0.75em Arial,Verdana;
+font:bold 0.75em Arial, Verdana;
 letter-spacing:0.07em;
 }
 
@@ -125,7 +125,7 @@ border-bottom:1px solid #424242 !important;
 
 #nav li li {
 width: 178px;
-background: #555;
+background: #000066;
 z-index:1000;
 height:auto;
 padding:4px 0;
@@ -136,9 +136,9 @@ border-bottom:1px solid #848484;
 #nav li li a, #nav li li a:visited,
 #nav li.current_page_parent li.current_page_item a, #nav li.current_page_parent li.current_page_item a:visited {
 color:#dadada !important;
-background: #555 !important;
+background: #000066 !important;
 text-transform:uppercase;
-font:0.7em Georgia, "Times New Roman", Times, serif !important;
+font:0.7em Arial, Verdana;
 padding:5px 12px !important;
 }
 
@@ -262,7 +262,7 @@ background: #777 !important;
 border:none;
 padding:4px 12px;
 text-transform:uppercase;
-font:0.8em Georgia, "Times New Roman", Times, serif !important;
+font:0.8em Arial, Verdana, sans serif !important;
 padding:5px 12px !important;
 }
 

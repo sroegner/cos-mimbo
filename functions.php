@@ -222,15 +222,14 @@ function thematic_date_classes( $t, &$c, $p = '' ) {
 
 /* Widgets ********************************************/
 
-if ( function_exists('register_sidebar') )
-    register_sidebar(array(
-		'name' => 'Mimbo Sidebar',
-        'before_widget' => '<div class="widget clearfloat">',
-        'after_widget' => '</div>',
-        'before_title' => '<h3 class="widgettitle">',
-        'after_title' => '</h3>',
-    ));
-
+if ( function_exists('register_sidebar') ){
+    register_sidebar(array('name' => 'Mimbo Sidebar',
+                           'before_widget' => '<div class="widget clearfloat">',
+                           'after_widget' => '</div>',
+                           'before_title' => '<h3 class="widgettitle">',
+                           'after_title' => '</h3>')
+                    );
+}
 
 /* Admin Panel ********************************************/
 

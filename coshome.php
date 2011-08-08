@@ -11,9 +11,12 @@
 
 <h2>Welcome!</h2>
 
+<p>This website aims to provide you a window into Church of Our Saviour, a diverse and vibrant community in the Episcopal tradition. Learn about our services and programs, our activities for children, and our efforts to reach out to others. Reading stories of our life together as a spiritual community will tell you a bit more about who we are.</p>
 
-<p>This website is intended as a window into Church of Our Saviour, a diverse and vibrant community in the Episcopal tradition. You will find information about our services and programs, about our activities for children, and our efforts to reach out to others. Beyond that you will read stories of our life together as a spiritual community that tells you a bit about who we are.</p>
+<p><strong>Holy Eucharist</strong></p>
+<p>10 AM late September through mid-June</p>
+9:30 AM end of June to mid-September
 
-<p>Holy Eucharist is at 10 a.m. from September through mid-June and 9:30 a.m. during the summer. We hope you will join us on Sunday morning and consider making Church of Our Saviour your spiritual home.</p></div>
+<p>We hope you will join us and consider making Church of Our Saviour your spiritual home.</p></div>
 </div>
 
